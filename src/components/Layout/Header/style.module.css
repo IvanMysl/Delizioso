@@ -1,0 +1,18 @@
+.header{
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__inner{
+    display: flex;
+    gap: 28px;
+}
+
