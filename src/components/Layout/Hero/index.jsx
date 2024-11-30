@@ -16,8 +16,10 @@ const Hero = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales
                 senectus dictum arcu sit tristique donec eget.
               </p>
+              <div className={css.button__inner}>
               <button className={css.btn__order}>Order now</button>
               <button className={css.btn__reservation}>Reservation</button>
+              </div>
             </div>
             <div className={css.image__inner}>
               <Image className={css.img} src={bigImage} alt="bigImage" />
