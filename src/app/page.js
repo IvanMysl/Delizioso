@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Reserve from "@/components/Reserve";
 import Welcome from "@/components/Welcome";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     {/* <h1> container</h1> */}
     <Hero/>
     <Welcome/>
+    <Reserve/>
     </>
   );
 }

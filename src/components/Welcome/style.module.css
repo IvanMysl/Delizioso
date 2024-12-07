@@ -9,10 +9,10 @@
     width: 706px;
     width: 100%;
     object-fit: contain;
-  }
-  
-  .container {
-    padding: 0px !important;
+}
+
+.container {
+      padding: 0px !important;
   }
   
   .main {
@@ -65,7 +65,9 @@
     .main {
       flex-wrap: nowrap;
     }
-  
+  .welcome{
+    padding-bottom: 0px;
+  }
     .inner{
       align-items: flex-start;
       max-width: 500px;
