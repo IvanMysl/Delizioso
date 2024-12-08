@@ -1,3 +1,4 @@
+import Chef from "@/components/Chef";
 import Hero from "@/components/Hero";
 import Reserve from "@/components/Reserve";
 import Welcome from "@/components/Welcome";
@@ -9,6 +10,7 @@ export default function Home() {
     <Hero/>
     <Welcome/>
     <Reserve/>
+    <Chef/>
     </>
   );
 }
