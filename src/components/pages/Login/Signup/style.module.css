@@ -1,0 +1,10 @@
+.sign__google::before{
+content: url(../../../../static/icons/googleIcon.svg);
+margin-right: 10px;
+vertical-align: middle;
+}
+.sign__google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

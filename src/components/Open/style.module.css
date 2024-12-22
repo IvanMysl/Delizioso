@@ -96,6 +96,12 @@
   background-color: rgb(255, 255, 255);
   cursor: pointer;
 }
+@media screen and (min-width: 368px){
+    .open::before {
+        display: none;
+      }
+}
+
 @media screen and (min-width: 568px) {
   .wrapper {
     padding-top: 50px;
